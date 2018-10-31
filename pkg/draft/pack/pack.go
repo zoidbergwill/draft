@@ -13,24 +13,6 @@ import (
 )
 
 const (
-	// ChartfileName is the default Chart file name.
-	ChartfileName = "Chart.yaml"
-	// ValuesfileName is the default values file name.
-	ValuesfileName = "values.yaml"
-	// IgnorefileName is the name of the Helm ignore file.
-	IgnorefileName = ".helmignore"
-	// DeploymentName is the name of the deployment file.
-	DeploymentName = "deployment.yaml"
-	// ServiceName is the name of the service file.
-	ServiceName = "service.yaml"
-	// IngressName is the name of the ingress file.
-	IngressName = "ingress.yaml"
-	// NotesName is the name of the NOTES.txt file.
-	NotesName = "NOTES.txt"
-	// HelpersName is the name of the helpers file.
-	HelpersName = "_helpers.tpl"
-	// TemplatesDir is the relative directory name for templates.
-	TemplatesDir = "templates"
 	// ChartsDir is the directory name for the packaged chart.
 	// This also doubles as the directory name for chart dependencies.
 	ChartsDir = "charts"
